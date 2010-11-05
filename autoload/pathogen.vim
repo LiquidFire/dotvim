@@ -1,1 +1,1 @@
-source $HOME/.vim/pathogen-vim/pathogen.vim
+source $HOME/.vim/pathogen-vim/autoload/pathogen.vim
