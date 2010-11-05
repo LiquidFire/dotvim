@@ -19,3 +19,6 @@
 [submodule "bundle/django"]
 	path = bundle/django
 	url = http://github.com/vim-scripts/django.vim.git
+[submodule "bundle/scss-syntax"]
+	path = bundle/scss-syntax
+	url = http://github.com/cakebaker/scss-syntax.vim.git
