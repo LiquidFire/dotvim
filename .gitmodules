@@ -6,4 +6,4 @@
 	url = http://github.com/vim-scripts/pyflakes.vim.git
 [submodule "bundle/snipMate"]
 	path = bundle/snipMate
-	url = http://github.com/vim-scripts/snipMate.git
+	url = http://github.com/msanders/snipmate.vim.git
