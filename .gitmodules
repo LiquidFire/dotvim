@@ -22,3 +22,6 @@
 [submodule "bundle/scss-syntax"]
 	path = bundle/scss-syntax
 	url = http://github.com/cakebaker/scss-syntax.vim.git
+[submodule "bundle/css_color"]
+	path = bundle/css_color
+	url = http://github.com/vim-scripts/css_color.vim.git
