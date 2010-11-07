@@ -9,7 +9,7 @@ Create symlinks (Unix):
 Create symlinks (Windows):
 
     mklink /D vimfiles .vim
-    mklink _vimrc _vimfiles/vimrc
+    mklink _vimrc vimfiles/vimrc
 
 Fetch submodules:
 

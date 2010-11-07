@@ -80,4 +80,4 @@ nnoremap <silent> <C-S-Left> :tabprev<CR>
 nnoremap <silent> <C-t> :tabnew<CR>
 
 nnoremap ; :
-inoremap jj <Esc>
+imap jj <Esc>
