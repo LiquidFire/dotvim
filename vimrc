@@ -64,6 +64,11 @@ set number
 set ignorecase
 set smartcase
 
+nnoremap / /\v
+vnoremap / /\v
+
+set gdefault
+
 set incsearch
 set hlsearch
 " clear hl on spacebar
