@@ -37,14 +37,47 @@ endif
 filetype plugin on
 filetype plugin indent on
 
-set guifont=DejaVu_Sans_Mono:h10
-
-set tabstop=4
+set tabstop=8
+set softtabstop=4
 set shiftwidth=4
 set expandtab
 set smarttab
 
 set autoindent
 
+set scrolloff=3
+
 set nobackup
 set nowritebackup
+
+" uncomment to enable automatic cd-ing
+autocmd BufEnter * execute "chdir ".escape(expand("%:p:h"), ' ')
+
+set wildmenu
+
+set mouse=a
+
+set backspace=2
+
+set number
+
+set ignorecase
+set smartcase
+
+set incsearch
+set hlsearch
+" clear hl on spacebar
+noremap <silent> <Space> :silent noh<Bar>echo<CR>
+
+if has("gui_running")
+    colorscheme desert
+    set guifont=DejaVu_Sans_Mono:h10
+endif
+
+nnoremap <silent> <C-S-Right> :tabnext<CR>
+nnoremap <silent> <C-S-Left> :tabprev<CR>
+
+nnoremap <silent> <C-t> :tabnew<CR>
+
+nnoremap ; :
+inoremap jj <Esc>
