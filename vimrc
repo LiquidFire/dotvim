@@ -76,7 +76,11 @@ noremap <silent> <Space> :silent noh<Bar>echo<CR>
 
 if has("gui_running")
     colorscheme desert
-    set guifont=DejaVu_Sans_Mono:h10
+    if has("win32")
+        set guifont=DejaVu_Sans_Mono:h10
+    elseif has("unix")
+        set guifont="DejaVu Sans Mono 10"
+    end
 endif
 
 nnoremap <silent> <C-S-Right> :tabnext<CR>
