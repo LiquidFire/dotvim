@@ -50,8 +50,12 @@ set scrolloff=3
 set nobackup
 set nowritebackup
 
+"call mkdir($HOME . "/.vim/undodir")
+set undodir=~/.vim/undodir
+set undofile
+
 " uncomment to enable automatic cd-ing
-autocmd BufEnter * execute "chdir ".escape(expand("%:p:h"), ' ')
+"autocmd BufEnter * execute "chdir ".escape(expand("%:p:h"), ' ')
 
 set wildmenu
 
@@ -66,6 +70,8 @@ set smartcase
 
 nnoremap / /\v
 vnoremap / /\v
+
+set encoding=utf-8
 
 set gdefault
 
@@ -90,3 +96,5 @@ nnoremap <silent> <C-t> :tabnew<CR>
 
 nnoremap ; :
 imap jj <Esc>
+
+noremap <F1> <Esc>
