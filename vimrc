@@ -98,3 +98,6 @@ nnoremap ; :
 imap jj <Esc>
 
 noremap <F1> <Esc>
+
+" default .tex files to 'tex' rather than 'plaintex'
+let g:tex_flavor='latex'
