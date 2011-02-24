@@ -68,12 +68,7 @@ set number
 set ignorecase
 set smartcase
 
-nnoremap / /\v
-vnoremap / /\v
-
 set encoding=utf-8
-
-set gdefault
 
 set incsearch
 set hlsearch
