@@ -37,3 +37,6 @@
 [submodule "bundle/pyflakes"]
 	path = bundle/pyflakes
 	url = http://github.com/vim-scripts/pyflakes.vim.git
+[submodule "bundle/indent_guides"]
+	path = bundle/indent_guides
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
