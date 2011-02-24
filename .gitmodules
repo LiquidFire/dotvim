@@ -40,3 +40,6 @@
 [submodule "bundle/indent_guides"]
 	path = bundle/indent_guides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/tir_black"]
+	path = bundle/tir_black
+	url = http://github.com/vim-scripts/tir_black.git
