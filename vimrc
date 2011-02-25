@@ -50,9 +50,11 @@ set scrolloff=3
 set nobackup
 set nowritebackup
 
-"call mkdir($HOME . "/.vim/undodir")
-set undodir=~/.vim/undodir
-set undofile
+if has("persistent_undo")
+    "call mkdir($HOME . "/.vim/undodir")
+    set undodir=~/.vim/undodir
+    set undofile
+endif
 
 " uncomment to enable automatic cd-ing
 "autocmd BufEnter * execute "chdir ".escape(expand("%:p:h"), ' ')
