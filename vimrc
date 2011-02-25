@@ -96,3 +96,5 @@ noremap <F1> <Esc>
 
 " default .tex files to 'tex' rather than 'plaintex'
 let g:tex_flavor='latex'
+
+let g:indent_guides_guide_size=1
