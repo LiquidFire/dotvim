@@ -43,3 +43,6 @@
 [submodule "bundle/tir_black"]
 	path = bundle/tir_black
 	url = http://github.com/vim-scripts/tir_black.git
+[submodule "bundle/repeat"]
+	path = bundle/repeat
+	url = http://github.com/tpope/vim-repeat
