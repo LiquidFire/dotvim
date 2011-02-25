@@ -100,3 +100,5 @@ noremap <F1> <Esc>
 let g:tex_flavor='latex'
 
 let g:indent_guides_guide_size=1
+
+let mapleader = ","
