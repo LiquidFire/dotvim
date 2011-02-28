@@ -1,3 +1,5 @@
+let mapleader = ","
+
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -78,7 +80,7 @@ set hlsearch
 noremap <silent> <Space> :silent noh<CR>:pclose<CR>:NERDTreeClose<Bar>echo<CR>
 
 if has("gui_running")
-    colorscheme desert
+    colorscheme mustang_noi
     if has("win32")
         set guifont=DejaVu_Sans_Mono:h10
     elseif has("unix")
@@ -89,16 +91,18 @@ endif
 nnoremap <silent> <C-S-Right> :tabnext<CR>
 nnoremap <silent> <C-S-Left> :tabprev<CR>
 
-nnoremap <silent> <C-t> :tabnew<CR>
+"nnoremap <silent> <C-t> :tabnew<CR>
 
 nnoremap ; :
 imap jj <Esc>
 
 noremap <F1> <Esc>
+noremap <silent> <F6> :NERDTreeToggle<CR>
+noremap <silent> <F8> :GundoToggle<CR>
+
+nnoremap <silent> <Leader>= :Tabularize /=
 
 " default .tex files to 'tex' rather than 'plaintex'
 let g:tex_flavor='latex'
 
 let g:indent_guides_guide_size=1
-
-let mapleader = ","
