@@ -106,3 +106,6 @@ nnoremap <silent> <Leader>= :Tabularize /=
 let g:tex_flavor='latex'
 
 let g:indent_guides_guide_size=1
+
+" use rope omni completion instead of vim's built-in one
+autocmd FileType python set omnifunc=RopeCompleteFunc

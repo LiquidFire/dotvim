@@ -52,3 +52,6 @@
 [submodule "bundle/indent-object"]
 	path = bundle/indent-object
 	url = http://github.com/vim-scripts/vim-indent-object.git
+[submodule "bundle/rope-omni"]
+	path = bundle/rope-omni
+	url = http://github.com/rygwdn/rope-omni.git
