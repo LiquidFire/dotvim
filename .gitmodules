@@ -55,3 +55,6 @@
 [submodule "bundle/rope-omni"]
 	path = bundle/rope-omni
 	url = http://github.com/rygwdn/rope-omni.git
+[submodule "bundle/Conque-Shell"]
+	path = bundle/Conque-Shell
+	url = http://github.com/vim-scripts/Conque-Shell.git
