@@ -77,7 +77,7 @@ set encoding=utf-8
 set incsearch
 set hlsearch
 " clear hl on spacebar
-noremap <silent> <Space> :silent noh<CR>:pclose<CR>:NERDTreeClose<Bar>echo<CR>
+noremap <silent> <Space> :silent noh<CR>:pclose<Bar>echo<CR>
 
 if has("gui_running")
     colorscheme mustang_noi
@@ -108,4 +108,4 @@ let g:tex_flavor='latex'
 let g:indent_guides_guide_size=1
 
 " use rope omni completion instead of vim's built-in one
-autocmd FileType python set omnifunc=RopeCompleteFunc
+"autocmd FileType python set omnifunc=RopeCompleteFunc
