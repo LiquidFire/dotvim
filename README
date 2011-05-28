@@ -27,3 +27,8 @@ Update a bundle:
 
     cd ~/.vim/bundle/foo
     git pull
+
+Update all bundles:
+
+    cd ~/.vim
+    git submodule foreach git pull
