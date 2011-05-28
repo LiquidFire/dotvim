@@ -1,4 +1,4 @@
-if has("win32")
+if has("win32") && has("ruby")
     ruby <<EOF
         $:.concat [
             "C:/Ruby187/lib/ruby/site_ruby/1.8",
