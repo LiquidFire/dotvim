@@ -1,15 +1,21 @@
 Installation:
 
-    git clone git://github.com/LiquidFire/dotvim.git
+    git clone git://github.com/LiquidFire/dotvim.git .vim
 
 Create symlinks (Unix):
 
     ln -s ~/.vim/vimrc ~/.vimrc
 
-Create symlinks (Windows):
+Create symlinks (Windows Vista+):
 
+    (as admin)
     mklink /D vimfiles .vim
     mklink _vimrc vimfiles/vimrc
+
+Create symlinks (Windows XP):
+
+    move .vim vimfiles
+    move vimfiles/winxprc _vimrc
 
 Fetch submodules:
 

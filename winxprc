@@ -1,0 +1,2 @@
+" workaround for Windows XP's poor symlink support
+source $HOME/vimfiles/vimrc
