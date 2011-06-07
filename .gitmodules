@@ -64,3 +64,6 @@
 [submodule "bundle/gitv"]
 	path = bundle/gitv
 	url = http://github.com/gregsexton/gitv.git
+[submodule "bundle/pydoc"]
+	path = bundle/pydoc
+	url = http://github.com/fs111/pydoc.vim.git
