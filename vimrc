@@ -109,3 +109,7 @@ let g:indent_guides_guide_size=1
 
 " use rope omni completion instead of vim's built-in one
 "autocmd FileType python set omnifunc=RopeCompleteFunc
+
+" hide preview window automatically
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif 
+autocmd InsertLeave * if pumvisible() == 0|pclose|endif
