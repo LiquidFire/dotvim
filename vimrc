@@ -102,6 +102,16 @@ noremap <F1> <Esc>
 noremap <silent> <F6> :NERDTreeToggle<CR>
 noremap <silent> <F8> :GundoToggle<CR>
 
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+noremap <C-h> <C-w>h
+
+inoremap <C-j> <Esc><C-w>j
+inoremap <C-k> <Esc><C-w>k
+inoremap <C-l> <Esc><C-w>l
+inoremap <C-h> <Esc><C-w>h
+
 nnoremap <silent> <Leader>= :Tabularize /=
 
 " default .tex files to 'tex' rather than 'plaintex'
