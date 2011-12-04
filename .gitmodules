@@ -70,3 +70,12 @@
 [submodule "bundle/pep8"]
 	path = bundle/pep8
 	url = http://github.com/vim-scripts/pep8.git
+[submodule "bundle/CamelCaseMotion"]
+	path = bundle/CamelCaseMotion
+	url = http://github.com/bkad/CamelCaseMotion.git
+[submodule "bundle/argtextobj"]
+	path = bundle/argtextobj
+	url = http://github.com/vim-scripts/argtextobj.vim.git
+[submodule "bundle/vim-indent-object"]
+	path = bundle/vim-indent-object
+	url = http://github.com/michaeljsmith/vim-indent-object.git
