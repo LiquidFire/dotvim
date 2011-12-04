@@ -79,3 +79,6 @@
 [submodule "bundle/vim-indent-object"]
 	path = bundle/vim-indent-object
 	url = http://github.com/michaeljsmith/vim-indent-object.git
+[submodule "bundle/EasyGrep"]
+	path = bundle/EasyGrep
+	url = http://github.com/vim-scripts/EasyGrep.git
