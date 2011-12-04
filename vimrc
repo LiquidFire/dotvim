@@ -74,6 +74,8 @@ set smartcase
 
 set encoding=utf-8
 
+set clipboard=unnamed
+
 set incsearch
 set hlsearch
 " clear hl on spacebar
