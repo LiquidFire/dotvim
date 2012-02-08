@@ -102,6 +102,8 @@ noremap <F1> <Esc>
 noremap <silent> <F6> :NERDTreeToggle<CR>
 noremap <silent> <F8> :GundoToggle<CR>
 
+noremap <Leader>. :CommandT<CR>
+
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
