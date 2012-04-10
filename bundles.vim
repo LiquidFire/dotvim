@@ -1,4 +1,3 @@
-Bundle 'tpope/vim-pathogen'
 Bundle 'msanders/snipmate.vim'
 Bundle 'The-NERD-Commenter'
 Bundle 'tpope/vim-surround'
