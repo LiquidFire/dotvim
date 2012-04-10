@@ -1,9 +1,18 @@
+set nocompatible
+
 let mapleader = ","
 
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+" Vundle stuff
+filetype off
 
-set nocompatible
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+source ~/.vim/bundles.vim
+
+filetype plugin indent on
+" end of Vundle stuff
 
 if has("win32")
     source $VIMRUNTIME/vimrc_example.vim

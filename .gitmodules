@@ -82,3 +82,6 @@
 [submodule "bundle/EasyGrep"]
 	path = bundle/EasyGrep
 	url = http://github.com/vim-scripts/EasyGrep.git
+[submodule "vundle"]
+	path = bundle/vundle
+	url = https://github.com/gmarik/vundle.git
