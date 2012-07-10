@@ -76,6 +76,8 @@ set mouse=a
 
 set backspace=2
 
+set laststatus=2
+
 set number
 
 set ignorecase
