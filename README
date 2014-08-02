@@ -1,4 +1,15 @@
-Installation:
+Installation
+============
+
+Unix
+----
+
+    git clone git://github.com/LiquidFire/dotvim.git .vim
+    cd ~/.vim
+    make vundle plugins
+
+Windows
+-------
 
     git clone git://github.com/LiquidFire/dotvim.git .vim
 
@@ -19,14 +30,12 @@ Install vundle:
     git submodule init
     git submodule update
 
-Install bundles (Unix):
-
-    cd ~/.vim
-    make
-
-Install bundles (Windows):
+Install bundles:
 
     vim +BundleInstall +qa
+
+Misc
+====
 
 Update a bundle:
 
