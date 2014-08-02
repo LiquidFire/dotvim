@@ -1,6 +1,8 @@
 *.swp
 *.*~
 .netrwhist
+_viminfo
 undodir/
 spell/
 bundle/
+session.vim
